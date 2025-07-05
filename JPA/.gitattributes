@@ -1,0 +1,9 @@
+# Windows 배치 파일은 CRLF 고정
+*.cmd text eol=crlf
+
+# Shell 스크립트 등은 LF 고정
+*.sh text eol=lf
+
+# Java, md 등은 자동 처리 (보통 LF 쓰게 됨)
+*.java text
+*.md text
