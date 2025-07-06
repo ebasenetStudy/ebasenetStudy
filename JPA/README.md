@@ -26,7 +26,7 @@
 - 동일 PK 엔티티 재조회 시 DB 쿼리 생략
 - 엔티티 상태 변경 시 커밋 시점에 SQL 자동 생성 (Dirty Checking)
 - SQL을 한 번에 모아 실행 (쓰기 지연)
-- 자세한 내용은 [영속성 컨텍스트](./docs/jpa/persistence-context.md) 참고
+- 자세한 내용은 [영속성 컨텍스트](./docs/persistence-context.md) 참고
 
 ## 동작 흐름
 
